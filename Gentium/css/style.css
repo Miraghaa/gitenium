@@ -1,0 +1,653 @@
+.header-all{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 18%;
+    cursor: pointer;
+}
+
+.header-all .logo a{
+    font-family: Avant;
+    color: #ffffff;
+    font-size: 36.38px;
+    font-weight: inherit;
+}
+.header-all .search a{
+    font-family: Avant;
+    color: #ffffff;
+    font-size: 16px;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+.header-all .search a:hover{
+    text-decoration: underline;
+    color: #e9204f;
+}
+.tda{
+    text-decoration: underline;
+    text-decoration-color: #e40e0e;
+}
+.search i{
+    color: #ffffff;
+}
+section{
+    background-color: black;
+}
+.banner{
+    background-image: url(https://gentium.pixerex.com/wp-content/uploads/2019/01/hero_02.jpg);
+     height: 105vh;
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: 75%;
+     cursor: pointer;
+
+}
+.bannerwrite{
+    padding-top: 6%;
+    padding-left: 17%;
+}
+.bannerwrite hr{
+    width: 5%;
+    height: 0.2vh;
+    color: #e9204f;
+    border: 1px solid #e9204f;
+    background-color: #e9204f;
+}
+.bannerwrite h2{
+    width: 50%;
+    padding-top: 6%;
+    font-family: Avant;
+    color: #ffffff;
+    font-size: 78px;
+    font-weight: 800;
+    padding-bottom: 5%;
+}
+.bannerwrite a{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border:2px solid #e9204f;
+}
+.bannerwrite a:hover{
+    background-color: #e9204f;
+}
+.boxs{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 15% 0%;
+
+}
+.box{
+    width: 30%;
+}
+.box1{
+    padding: 10% 0% 22% 10%;
+}
+.box1{
+    color: #ffffff;
+    width: 100%;
+    background-color: #e9204f;
+}
+.box1.write i{
+    font-size: 50px;
+    border-style: hidden;
+}
+.box1.write h1{
+     padding: 10% 0% 3%;
+    font-family: Avant;
+    color: #ffffff;
+    font-size: 24px;
+}
+.box1.write hr{
+    width: 8%;
+    border: 1px solid white;
+
+}
+.box1.write p{
+    line-height: 1.5;
+    width: 80%;
+    font-family: Trade;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: inherit;
+    padding-top: 10%;
+}
+.box1.write2{
+    background-color: #1b1b1b;
+    transition: 0.5s;
+}
+.box1.write2:hover{
+    background-color: #e9204f;
+}
+.box1.write2 i{
+    font-size: 50px;
+    border-style: hidden;
+}
+.box1.write2 h1{
+     padding: 10% 0% 3%;
+    font-family: Avant;
+    color: #ffffff;
+    font-size: 24px;
+}
+.box1.write2 hr{
+    width: 8%;
+    border: 1px solid white;
+
+}
+.box1.write2 p{
+    line-height: 1.5;
+    width: 80%;
+    font-family: Trade;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: inherit;
+    padding-top: 10%;
+}
+.box1.write3{
+    background-color: #1b1b1b;
+    transition: 0.5s;  
+}
+.box1.write3:hover{
+    background-color: #e9204f;
+}
+.box1.write3 i{
+    font-size: 50px;
+    border-style: hidden;
+}
+.box1.write3 h1{
+     padding: 10% 0% 3%;
+    font-family: Avant;
+    color: #ffffff;
+    font-size: 24px;
+}
+.box1.write3 hr{
+    width: 8%;
+    border: 1px solid white;
+
+}
+.box1.write3 p{
+    line-height: 1.5;
+    width: 80%;
+    font-family: Trade;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: inherit;
+    padding-top: 10%;
+}
+#services{
+    cursor: pointer;
+padding-top: 5%;
+    background-color: #0c0b0b;
+}
+.serviceswrite{
+    padding: 7% 0% 0% 17%;
+}
+.serviceswrite hr{ 
+    
+    width: 3%;
+    height: 0.2vh;
+    color: #e9204f;
+    border: 1px solid #e9204f;
+    background-color: #e9204f;
+}
+.serviceswrite h1{
+    padding: 3% 0 2%;
+    font-family: Avant;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+}
+.serviceswrite p{
+    font-family: Trade;
+    color: #e9204f;
+    font-size: 18px;
+    font-weight: 700;
+}
+.servicesbox{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0% 12% 0% 12%;
+}
+.sbox{
+   width: 26%;
+}
+.sbox{
+    background-color: #222020;
+    padding: 3% 1% 2%;
+    margin: 2% 0% 0%;
+    align-items: center;
+    transition: 0.5s;
+    
+}
+.sbox:hover{
+    background-color: #e9204f;
+}
+.sbox span{
+    
+    font-family: Avant;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 700;
+}
+.servicesbox i{
+    font-size: 40px;
+    padding-right: 10px;
+    float: right;
+   color: #a3a3a3;
+}
+#works{
+    padding-top: 5%;
+    background-color: #0c0b0b;
+    cursor: pointer;
+}
+.work{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 15%;
+    align-items: center;
+}
+.workswrite{
+    margin-left: 3%;
+}
+.workswrite hr{ 
+    
+    width: 30%;
+    height: 0.2vh;
+    color: #e9204f;
+    border: 1px solid #e9204f;
+    background-color: #e9204f;
+}
+.workswrite h1{
+    padding: 30% 0 20%;
+    font-family: Avant;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+}
+.workswrite p{
+    font-family: Trade;
+    color: #e9204f;
+    font-size: 18px;
+    font-weight: 700;
+}
+.workall{
+    margin-top: 5%;
+    margin-right: 3%;
+}
+.workall a:hover{
+    background-color: #e9204f;
+}
+.workall a{
+    padding: 20px 45px;
+    color: #ffffff;
+    background-color: #222020;
+    border: 1px solid #e9204f;
+    font-weight: inherit;
+    transition: 0.5s;
+}
+
+.worksbox {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.worksbox .box{
+    
+    width: 32%;
+    overflow: hidden;
+}
+
+.worksbox .box img{
+    width: 100%;
+    vertical-align: bottom;
+    height: 60vh;
+    opacity: 0.1;
+    transition: 0.2s;
+}
+.worksbox .box img:hover{
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+#work .icon{
+    margin-top: 2%;
+    text-align: center;
+}
+#work .icon i{
+    padding: 0% 0.5%;
+    color: #ffffff;
+}
+#about{
+    background-color: #0c0b0b;
+    cursor: pointer;
+    padding: 10% 5%;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 15%;
+    align-items: center;
+}
+
+.aboutwrite hr{ 
+    
+    width: 12%;
+    height: 0.2vh;
+    color: #e9204f;
+    border: 1px solid #e9204f;
+    background-color: #e9204f;
+}
+.aboutwrite h1{
+    padding: 20% 0 10%;
+    font-family: Avant;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+}
+.aboutwrite p{
+    font-family: Trade;
+    color: #e9204f;
+    font-size: 18px;
+    font-weight: 700;
+}
+.aboutall{
+    width: 48%;
+}
+.aboutall span{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #acacac;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+}
+.aboutbox{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.aboutbox .boxs1{
+    width: 47.2%;
+    margin-right: 2%;
+    background-color: #1b1b1b;
+}
+.aboutbox .box{
+    width: 22%;
+}
+.img1{
+    margin-bottom: 10%;
+}
+.aboutbox img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.aboutbox img{
+    opacity: 0.1;
+    transition: 0.1s;
+}
+.aboutbox img:hover{
+   opacity: 0.8;
+}
+.aboutfoot{
+    padding: 0% 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.kart{
+    width: 20%;
+}
+.kart h1{
+    font-family: Avant;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 7%;
+}
+.kart p{
+    font-family: Trade;
+    font-size: 17px;
+    color: #acacac;
+    font-weight: 400;
+}
+#client{
+ padding-top: 5%;
+background-color: #0c0b0b;
+padding-bottom: 3%;
+cursor: pointer;
+}
+.client1{
+    display: flex;
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+.clbox img{
+    width: 200%;
+}
+.clientwrite {
+    padding-top: 5%;
+    margin-left: 20%;
+}
+.clientwrite hr{ 
+    width: 5%;
+    height: 0.2vh;
+    border: 1px solid #e9204f;
+}
+.clientwrite h1{
+    padding: 4% 0 2%;
+    font-family: Avant;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+}
+.clientwrite p{
+    font-family: Trade;
+    color: #e9204f;
+    font-size: 18px;
+    font-weight: 700;
+}
+.clientwrite .p1{
+    font-family: Trade;
+    padding-top: 10%;
+    width: 69%;
+    font-size: 24px;
+    color: #acacac;
+    font-weight: 400;
+    padding-bottom: 10%;
+}
+.clientwrite h6{
+    padding-top: 2%;
+    font-size: 17px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+}
+#client .hr1{
+    padding: 5% 20% 0%;
+}
+.hr1 hr{
+    border: 1px solid rgb(43, 41, 41);
+}
+.logos{
+    background-color: #0c0b0b;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+
+}
+.logos img{
+    padding: 0% 1.5%;
+}
+#blog{
+    padding-top: 5%;
+    background-color: #0c0b0b;
+    padding-bottom: 6%;
+    cursor: pointer;
+}
+.blog{
+    text-align: center;
+}
+.blog h2{
+    font-family: Avant;
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    padding-bottom: 1%;
+}
+.blog h4{
+    font-family: Trade;
+    color: #e9204f;
+    font-size: 15px;
+    font-weight: 700;
+    padding-bottom: 5%;
+}
+.blogbox{
+    display: flex;
+    justify-content: space-between;
+}
+.blogbox .box{
+    
+    width: 33%;
+    overflow: hidden;
+}
+.blogbox img{
+    width: 100%;
+    vertical-align: bottom;
+    height: 60vh;
+    opacity: 0.1;
+    transition: 0.2s;
+}
+.blogbox img:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+ .icon{
+    margin-top: 2.5%;
+    text-align: center;
+}
+.icon i{
+    padding: 0% 0.3%;
+    color: #ffffff;
+}
+#contact{
+    background-color: #1b1b1b;
+    padding: 0% 20%;
+    cursor: pointer;
+}
+.contacthead{
+    padding-top: 12%;
+    padding-bottom: 10%;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacthead i{
+    margin-left: 5px;
+    font-size: 15px;
+    color: #ffffff;
+    border: 2px solid;
+    padding: 15px 15px;
+    border-color: #e9204f;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contacthead i:hover{
+    background-color: #e9204f;
+}
+.contacthead h2{
+  font-family: Avant;
+    color: #ffffff;
+font-size: 48px;
+font-weight: 700;
+}
+.contacthead a{
+    font-family: Avant;
+    color: #ffffff;
+    font-size: 17px;
+    font-family: 900;
+    border: 2px solid #e9204f;
+    padding: 20px 30px;
+    transition: 0.3s;
+}
+.contacthead a:hover{
+    background-color: #e9204f;
+}
+#contact2{
+    background-color: #161616;
+     padding:0% 15% ;
+}
+.contactfootwrite{
+    background-color: #161616;
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.contactfootwrite h3{
+    font-family: Avant;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contactfootwrite h3:hover{
+  color: #e9204f;
+}
+.contactfootwrite p{
+    cursor: pointer;
+    font-family: 'Robota' sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 100;
+    transition: 0.3;
+}
+.contactfootwrite p:hover{
+ color: #e9204f;
+}
+footer{
+    background: black; 
+    padding: 0% 5%; 
+    cursor: pointer;  
+}
+.footers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 0%;
+}
+.footers p{
+    font-family: Trade;
+    color: #747474;
+    font-size: 14px;
+    font-weight: 400;
+}
+.f1{
+    margin-left: 17%;
+}
+.footers span{
+    color: #ffffff;
+}
+.f2{
+    margin-right: 15%;
+}
+.f2 a{
+    font-family: Trade;
+    padding: 5px;
+    color: #ffffff;
+     font-size: 15px;
+     font-weight: 400;
+     transition: 0.2s;
+}
+.f2 a:hover{
+    color: #e9204f;
+    text-decoration: underline;
+}

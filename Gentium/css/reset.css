@@ -1,0 +1,16 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: Avant;
+    src: url(../fonts/avantgardefonts/AvantGarde-Bold\ \(1\).ttf);    
+}
+@font-face {
+    font-family: Trade;
+    src: url(../fonts/Trade_Gothic_Font/Trade\ Gothic\ LT.ttf);
+}
